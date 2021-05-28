@@ -9,3 +9,6 @@
  * typescript
  * styled-componets
  * next-auth para autenticação  com o github
+
+### O App estar hospedado na vercel 
+link https://cliente-github.vercel.app/ 
