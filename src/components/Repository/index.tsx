@@ -44,6 +44,7 @@ export function Repository() {
       
 
       setRepositories([...repositories, repository]);
+      setNewRepository('');
       setErro(false);
     } catch (err) {
       setMessageErro('Digite un repositório válido');
