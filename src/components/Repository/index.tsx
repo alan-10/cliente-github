@@ -67,7 +67,7 @@ export function Repository() {
       {repositories.map((repository) => (
         <>
           <Repositorie key={repository.id}>
-            <a href={repository.html_url}>
+            <a target="_blank" href={repository.html_url}>
               <img src={repository.owner.avatar_url} alt="" />
               <div>
                 <strong>{repository.full_name}</strong>

@@ -36,7 +36,7 @@ export const Content = styled.div`
     margin-top: 2rem;
 
     a {
-      background: rosybrown;
+      background: white;
       padding: 0.5rem;
       color: #820263;
       border-radius: 2px;

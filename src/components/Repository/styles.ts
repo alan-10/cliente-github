@@ -28,6 +28,7 @@ input {
   background: #e9edc9;
   padding: 7px;
   border:1px solid #e9edc9;
+  font-size: 1rem;
 
   ${props => props.isError && css`
     border-color: red;
@@ -73,7 +74,7 @@ position: relative;
   a{
     display: flex;
     align-items: center;
-
+    color: #463f3a;
      strong {
       margin: 0;
       font-size: 20px;

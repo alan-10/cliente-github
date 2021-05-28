@@ -22,7 +22,7 @@ export function ModalTags({ tag }: ModalDTO) {
           <strong>{titleModal}</strong>
           <div>
           {tag.map(tagInfo => (
-          <a key={tagInfo.id} href={tagInfo.html_url}>{tagInfo.name}</a>
+          <a target="_blank" key={tagInfo.id} href={tagInfo.html_url}>{tagInfo.name}</a>
           ))}
           </div>
       </Content>
