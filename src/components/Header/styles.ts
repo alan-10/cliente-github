@@ -28,5 +28,13 @@ export const Container = styled.div`
     &:hover {
       background: ${shade(0.2, '#FB8B24')};
     }
+
+    @media(max-width:500px) {
+  
+      height: 2rem;
+      width: 140px;
   }
+  }
+
+  
 `;

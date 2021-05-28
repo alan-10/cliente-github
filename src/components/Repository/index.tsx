@@ -54,7 +54,7 @@ export function Repository() {
   return (
     <Container>
       <Title>Explore repositórios no Github</Title>
-      <Form onSubmit={handleSubmitForm}>
+      <Form  isError={isErro} onSubmit={handleSubmitForm}>
         <input
           type="text"
           placeholder="Digite o nome do repositório"
